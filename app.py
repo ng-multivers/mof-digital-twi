@@ -57,6 +57,10 @@ st.markdown("""
         background-color: white;
         border-right: 3px solid #01689b;
     }
+            
+    [data-testid="stSidebarNav"]{
+    display:none;    
+    }
     
     /* Government navigation styling */
     .gov-nav-title {
@@ -132,14 +136,10 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# Sidebar with official government styling
-st.sidebar.markdown('<p class="gov-nav-title">🇳🇱 Navigation</p>', unsafe_allow_html=True)
-st.sidebar.markdown("**Ministry of Finance**")
-st.sidebar.markdown("---")
 
 # Navigation links with official ministry structure
 st.sidebar.page_link("pages/1_Home.py", label="🏠 Dashboard")
-st.sidebar.page_link("pages/2_Create_Digital_Twin.py", label="📋 Document Expertise")
+st.sidebar.page_link("pages/2_Create_Digital_Twin.py", label="📋 Create Digital Twin")
 st.sidebar.page_link("pages/3_Knowledge_Library.py", label="📚 Knowledge Library")
 st.sidebar.page_link("pages/4_AI_Coach.py", label="🧠 AI Coach")
 st.sidebar.page_link("pages/5_Recognition_Stories.py", label="🏆 Recognition & Impact")

@@ -46,8 +46,19 @@ st.markdown("""
         padding-left: 1rem;
         margin: 1rem 0;
     }
+             [data-testid="stSidebarNav"]{
+    display:none;    
+    }
+    
 </style>
 """, unsafe_allow_html=True)
+
+# Navigation links with official ministry structure
+st.sidebar.page_link("pages/1_Home.py", label="🏠 Dashboard")
+st.sidebar.page_link("pages/2_Create_Digital_Twin.py", label="📋 Create Digital Twin")
+st.sidebar.page_link("pages/3_Knowledge_Library.py", label="📚 Knowledge Library")
+st.sidebar.page_link("pages/4_AI_Coach.py", label="🧠 AI Coach")
+st.sidebar.page_link("pages/5_Recognition_Stories.py", label="🏆 Recognition & Impact")
 
 st.markdown("""
 <div class="gov-page-header">
@@ -82,7 +93,7 @@ st.subheader("🚀 Quick Access")
 colA, colB = st.columns(2)
 with colA:
     st.markdown("**📋 Expertise & Documentation**")
-    if st.button("📝 Document Policy Process"):
+    if st.button("📝 Create Digital Twin"):
         st.switch_page("pages/2_Create_Digital_Twin.py")
     if st.button("📚 Explore Knowledge Library"):
         st.switch_page("pages/3_Knowledge_Library.py")
@@ -93,21 +104,7 @@ with colB:
         st.switch_page("pages/4_AI_Coach.py")
     # Scenario training is now integrated into AI Coach
 
-# Official Ministry Values from government.nl
-st.markdown("---")
-st.subheader("🏛️ Our Core Values")
-st.markdown("""
-<div class="gov-section">
-<p>As employees of the Ministry of Finance, we strive to be:</p>
-<ul>
-<li><strong>Dedicated</strong> - We work for parliamentary democracy and its institutions with integrity and efficiency</li>
-<li><strong>Expert and Professional</strong> - We keep critical oversight of our work and collaborate professionally</li>
-<li><strong>Accessible</strong> - We treat everyone with respect and are transparent in our work</li>
-<li><strong>Encouraging</strong> - We motivate each other and remain open to new ideas</li>
-</ul>
-<p style="font-size: 0.9rem; color: #666;"><a href="https://www.government.nl/ministries/ministry-of-finance" target="_blank">Source: Our Basic Values - Ministry of Finance</a></p>
-</div>
-""", unsafe_allow_html=True)
+
 
 # Ministry news and updates
 st.markdown("---")

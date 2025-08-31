@@ -16,7 +16,7 @@ This is a **comprehensive digital expertise platform** that transforms how gover
 - Track policy documents created, expertise modules developed, and colleagues helped
 - Quick access to all platform features with government-standard styling
 
-**2. 📋 Document Policy Expertise**
+**2. 📋 Create Digital Twin**
 - Three capture methods: video recordings of policy processes, template sharing, and structured expertise profiles
 - Ministry-specific categories: EU legislation, tax procedures, state aid compliance
 - Security-compliant with classification levels and GDPR compliance
