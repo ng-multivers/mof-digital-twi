@@ -194,8 +194,7 @@ st.markdown("*Help other colleagues by sharing your successes and lessons learne
 
 story_category = st.selectbox("Impact Category", [
     "EU Legislation & Compliance",
-    "Tax Reform", 
-    "ESG & Sustainable Finance",
+    "Tax Reform",
     "Digital Finance Innovation",
     "International Tax Cooperation",
     "Crisis Management & Response",

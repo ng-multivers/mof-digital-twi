@@ -198,18 +198,6 @@ scenarios = {
         "explanation": "State aid rules are strict, but there are legal ways such as R&D and training subsidies. This protects jobs while remaining EU compliant and preventing precedent."
     },
     
-    "ESG Reporting Resistance": {
-        "context": "Dutch companies massively resist new EU ESG reporting rules. They claim costs are too high and threaten lawsuits.",
-        "situation": "Several other EU countries are considering postponement of implementation. The Netherlands must take a position within a week.",
-        "options": [
-            "Go along with other countries and ask the EU for postponement",
-            "Strictly implement according to EU timeline - rules are rules", 
-            "Compromise: implementation on schedule but with transition period and support for companies",
-            "Give Dutch companies exemption until other countries also implement"
-        ],
-        "correct": 2,
-        "explanation": "ESG reporting is essential for climate goals. A transition period with support helps companies adapt while the Netherlands respects EU legislation."
-    }
 }
 
 # Scenario selection interface

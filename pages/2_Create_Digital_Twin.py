@@ -149,7 +149,6 @@ elif step == "Expertise Profile":
         "Dutch Tax Legislation",
         "EU Fiscal Governance", 
         "International Tax Treaties",
-        "ESG & Sustainable Finance",
         "Digital Euro Development",
         "Brexit Financial Impact",
         "State Aid Regulations",

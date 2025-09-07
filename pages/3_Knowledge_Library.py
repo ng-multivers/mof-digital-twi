@@ -105,8 +105,7 @@ if search_query:
 # Main topic categories for Finance Ministry
 topics = [
     "🏦 EU & International Finance", 
-    "💰 Dutch Tax Legislation",
-    "📊 ESG & Sustainable Finance", 
+    "💰 Dutch Tax Legislation", 
     "🇪🇺 Brexit Impact & Procedures",
     "💱 Digital Euro & FinTech",
     "⚖️ Compliance & Anti-Money Laundering",
@@ -156,22 +155,6 @@ elif "Tax Legislation" in selected_topic:
     - 📈 [Tax Policy Scenario Planner](#)
     """)
     
-elif "ESG" in selected_topic:
-    st.markdown("""
-    **🌱 ESG Framework Documents:**
-    - 📄 [EU Taxonomy Implementation Roadmap](#) *(2024)*
-    - 📄 [Green Bond Standards Netherlands](#) *(New!)*
-    - 📄 [Climate Risk Financial Assessment](#) *(DNB collaboration)*
-    
-    **📊 Reporting Tools:**
-    - 📋 [ESG Impact Assessment Template](#)
-    - 📈 [Sustainable Finance Dashboard](#)
-    - 🌡️ [Climate Risk Stress Test Models](#)
-    
-    **🎯 Training Modules:**
-    - 🎓 [ESG Integration in Financial Policy](#) *(4 hours)*
-    - 🎓 [Green Finance Instruments Overview](#) *(2 hours)*
-    """)
 
 else:
     st.markdown("""
@@ -196,7 +179,6 @@ with col1:
 with col2:
     st.markdown("""
     **Popular Downloads:**
-    - 📥 ESG Reporting Templates (847x)
     - 📥 State Aid Quick Reference (623x)
     - 📥 Tax Treaty Application Forms (445x)
     """)
@@ -206,10 +188,9 @@ st.markdown("---")
 st.subheader("👥 Expert Contacts")
 st.markdown("""
 **🎯 Subject Matter Experts:**
-- **EU Legislation**: Dr. Sarah Mitchell (ext. 2847)
-- **ESG & Climate**: Prof. David Thompson (ext. 2901) 
-- **Digital Finance**: Lisa Chen (ext. 2756)
-- **International Tax**: Michael Anderson (ext. 2634)
+- **EU Legislation**: Mirjam van Kuilenberg (ext. 2847)
+- **Digital Finance**: Thijs Geurts (ext. 2756)
+- **International Tax**: Cara Antione  (ext. 2634)
 """)
 
 st.success("💡 **Tip**: Use Ctrl+F to quickly search within documents. All resources are accessible through your ministry account.")
