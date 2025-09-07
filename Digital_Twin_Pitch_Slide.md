@@ -55,7 +55,7 @@
 ---
 
 ### **FOOTER**
-🇳🇱 **Ministry of Finance** | Digital Expertise Platform | 2024
+**Ministry of Finance** | Digital Expertise Platform | 2024
 
 ---
 
@@ -66,8 +66,7 @@
    - 👤➡️💼 Expert leaving (knowledge loss)
    - 🤖👥 AI + people (digital twin)
    - 📈 Growth chart
-   - 🇳🇱 Dutch flag element
-
+   
 2. **Color Scheme:**
    - Primary: #01689b (Dutch government blue)
    - Secondary: #f8f9fa (light gray)

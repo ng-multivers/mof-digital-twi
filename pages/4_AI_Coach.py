@@ -105,7 +105,7 @@ st.sidebar.page_link("pages/5_Recognition_Stories.py", label="🏆 Recognition &
 
 st.markdown("""
 **Advanced AI-powered coaching for Ministry of Finance** 🏛️  
-Develop your decision-making skills through complex, realistic policy situations with personalized AI guidance specific to your ministry work.
+Develop your decision-making skills through complex, realistic policy situations with personalized AI guidance specific to your ministry work based on the information provided to the digital twin by your colleagues.
 """)
 
 # Comprehensive scenario bank for Finance Ministry

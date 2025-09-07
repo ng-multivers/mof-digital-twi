@@ -62,14 +62,14 @@ st.sidebar.page_link("pages/5_Recognition_Stories.py", label="🏆 Recognition &
 
 st.markdown("""
 <div class="gov-page-header">
-    <h1>🏛️ Finance Ministry Dashboard</h1>
+    <h1>🏛️Ministry of Finance Dashboard</h1>
 </div>
 """, unsafe_allow_html=True)
 
 # Welcome message with ministry context
 st.markdown("""
 <div class="gov-section">
-<strong>Welcome, Ministry of Finance employee!</strong> 🇳🇱<br/>
+<strong>Welcome, Ministry of Finance employee!</strong> <br/>
 This dashboard shows your progress in knowledge sharing and expertise development within the ministry.
 </div>
 """, unsafe_allow_html=True)
@@ -88,8 +88,8 @@ with col3:
 with col4:
     st.metric("Colleagues Helped", "23", "8")
 
-# Ministry-specific quick access
-st.subheader("🚀 Quick Access")
+# Ministry-specific popular links
+st.subheader("🔗 Popular Links")
 colA, colB = st.columns(2)
 with colA:
     st.markdown("**📋 Expertise & Documentation**")
@@ -120,9 +120,9 @@ with col_news1:
 with col_news2:
     st.markdown("""
     **🏆 This Week's Top Contributors:**
-    - 🥇 Emma van der Berg (Tax Administration)
-    - 🥈 Pieter Janssen (State Debt)
-    - 🥉 Maria Rodriguez (EU Finance)
+    - 🥇 Cara Antione (Tax Administration)
+    - 🥈 Mirjam van Kuilenberg (State Debt)
+    - 🥉 Thijs Geurts (EU Finance)
     """)
 
 # Current ministry priorities based on government.nl news

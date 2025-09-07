@@ -179,5 +179,4 @@ st.checkbox("✅ I confirm this documentation complies with GDPR requirements")
 
 st.markdown("---")
 if st.button("🏛️ Submit Expertise Documentation"):
-    st.success("✅ Your expertise documentation has been successfully submitted to the Ministry of Finance! 🇳🇱")
-    st.info("🔄 Your contribution will be reviewed by the Knowledge Management department within 24 hours.")
+    st.success("✅ Your expertise documentation has been successfully submitted and you have created your Digital Twin!")

@@ -134,14 +134,14 @@ with col1:
     st.markdown("""
     **🏅 Q3 2025 Impact Champions:**
     
-    **🥇 Dr. Emma van der Berg** - *EU Legislation Specialist*  
+    **🥇 Cara Antione** - *EU Legislation Specialist*  
     📍 *Tax Administration*  
     💫 *"Her Brexit compliance module helped 47 colleagues and prevented €2.3M in fines"*
     """)
     
 with col2:
     st.markdown("""
-    **🥈 Pieter Janssen** - *State Debt Analyst*  
+    **🥈 Mirjam van Kuilenberg** - *State Debt Analyst*  
     📍 *Treasury & State Debt*  
     💫 *"His digital euro scenario training was downloaded 156x by other ministries"*
     """)
@@ -163,7 +163,7 @@ with col_metric4:
 st.markdown("---")
 st.subheader("💼 Recent Impact Stories")
 
-with st.expander("🚀 **EU Taxonomy Crisis Response** - *By Dr. van der Berg*"):
+with st.expander("🚀 **EU Taxonomy Crisis Response** - *By Cara Antione*"):
     st.markdown("""
     **Situation:** When EU taxonomy changes were announced, the ministry had a complete response strategy within 4 hours.
     
@@ -175,7 +175,7 @@ with st.expander("🚀 **EU Taxonomy Crisis Response** - *By Dr. van der Berg*")
     **Feedback:** *"Emma's expertise module on EU legislation processes made the difference. We could respond quickly and accurately."* - **Minister of Finance**
     """)
 
-with st.expander("💱 **Digital Euro Pilot Success** - *By Pieter Janssen*"):
+with st.expander("💱 **Digital Euro Pilot Success** - *By Mirjam van Kuilenberg*"):
     st.markdown("""
     **Situation:** Netherlands was selected as pilot for digital euro implementation.
     
@@ -185,18 +185,6 @@ with st.expander("💱 **Digital Euro Pilot Success** - *By Pieter Janssen*"):
     - ✅ DNB partnership model becomes EU-wide standard
     
     **Feedback:** *"Pieter's scenario planning module was essential for our pilot success."* - **DNB Director**
-    """)
-
-with st.expander("🌱 **ESG Framework Leadership** - *By Maria Rodriguez*"):
-    st.markdown("""
-    **Situation:** Dutch ESG implementation became EU benchmark.
-    
-    **Impact:**
-    - ✅ 89% of Dutch banks now comply with ESG requirements
-    - ✅ €3.2B in green investments facilitated
-    - ✅ 12 other countries copy Dutch approach
-    
-    **Feedback:** *"Maria's practical ESG templates made complex rules accessible."* - **ABN AMRO Chief Risk Officer**
     """)
 
 # Recognition submission form
