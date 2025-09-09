@@ -143,7 +143,7 @@ with col2:
     st.markdown("""
     **🥈 Mirjam van Kuilenberg** - *State Debt Analyst*  
     📍 *Treasury & State Debt*  
-    💫 *"His digital euro scenario training was downloaded 156x by other ministries"*
+    💫 *"Her digital euro scenario training was downloaded 156x by other ministries"*
     """)
 
 # Impact metrics for ministry
