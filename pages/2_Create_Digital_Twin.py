@@ -161,7 +161,7 @@ elif step == "Expertise Profile":
     
     st.text_area("Critical Knowledge", placeholder="What unique knowledge do you have that is essential for the ministry?")
     
-    languages = st.multiselect("Languages", ["Dutch", "English", "French", "German", "Spanish"])
+    languages = st.multiselect("Languages", ["Dutch", "English"])
 
 # Compliance and security
 st.markdown("---")
