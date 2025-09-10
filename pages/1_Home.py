@@ -54,8 +54,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Navigation links with official ministry structure
-st.sidebar.page_link("pages/1_Home.py", label="🏠 Dashboard")
-st.sidebar.page_link("pages/2_Create_Digital_Twin.py", label="📋 Create Digital Twin")
+st.sidebar.page_link("pages/2_Create_Digital_Twin.py", label="📋 Digital Twin")
 st.sidebar.page_link("pages/3_Knowledge_Library.py", label="📚 Knowledge Library")
 st.sidebar.page_link("pages/4_AI_Coach.py", label="🧠 AI Coach")
 st.sidebar.page_link("pages/5_Recognition_Stories.py", label="🏆 Recognition & Impact")
@@ -93,7 +92,7 @@ st.subheader("🔗 Popular Links")
 colA, colB = st.columns(2)
 with colA:
     st.markdown("**📋 Expertise & Documentation**")
-    if st.button("📝 Create Digital Twin"):
+    if st.button("📝 Digital Twin"):
         st.switch_page("pages/2_Create_Digital_Twin.py")
     if st.button("📚 Explore Knowledge Library"):
         st.switch_page("pages/3_Knowledge_Library.py")

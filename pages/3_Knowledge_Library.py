@@ -84,8 +84,7 @@ st.markdown("""
 
 
 # Navigation links with official ministry structure
-st.sidebar.page_link("pages/1_Home.py", label="🏠 Dashboard")
-st.sidebar.page_link("pages/2_Create_Digital_Twin.py", label="📋 Create Digital Twin")
+st.sidebar.page_link("pages/2_Create_Digital_Twin.py", label="📋 Digital Twin")
 st.sidebar.page_link("pages/3_Knowledge_Library.py", label="📚 Knowledge Library")
 st.sidebar.page_link("pages/4_AI_Coach.py", label="🧠 AI Coach")
 st.sidebar.page_link("pages/5_Recognition_Stories.py", label="🏆 Recognition & Impact")
@@ -155,6 +154,13 @@ elif "Tax Legislation" in selected_topic:
     - 📈 [Tax Policy Scenario Planner](#)
     """)
     
+elif "Budget Processes & Procedures" in selected_topic:
+    st.markdown("""
+    **📋 General Resources:**
+    - 📊 [Budget Allocation and Distribution](#)
+    - 🧾 [Budget Monitoring and Control](#)
+    - 📄 [Budget Closure and Audit](#)
+    """)
 
 else:
     st.markdown("""
