@@ -84,6 +84,7 @@ st.markdown("""
 
 
 # Navigation links with official ministry structure
+st.sidebar.page_link("app.py", label="🏠 Home")
 st.sidebar.page_link("pages/2_Create_Digital_Twin.py", label="📋 Digital Twin")
 st.sidebar.page_link("pages/3_Knowledge_Library.py", label="📚 Knowledge Library")
 st.sidebar.page_link("pages/4_AI_Coach.py", label="🧠 AI Coach")
