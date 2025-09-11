@@ -195,9 +195,8 @@ st.markdown("---")
 st.subheader("👥 Expert Contacts")
 st.markdown("""
 **🎯 Subject Matter Experts:**
-- **EU Legislation**: Mirjam van Kuilenberg (ext. 2847)
 - **Digital Finance**: Thijs Geurts (ext. 2756)
-- **International Tax**: Cara Antione  (ext. 2634)
+- **International Tax**: Ronald van den Berg   (ext. 2634)
 """)
 
 st.success("💡 **Tip**: Use Ctrl+F to quickly search within documents. All resources are accessible through your ministry account.")

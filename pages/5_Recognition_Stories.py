@@ -134,7 +134,7 @@ with col1:
     st.markdown("""
     **🏅 Q3 2025 Impact Champions:**
     
-    **🥇 Cara Antione** - *EU Legislation Specialist*  
+    **🥇 Cara Antoine** - *EU Legislation Specialist*  
     📍 *Tax Administration*  
     💫 *"Her Brexit compliance module helped 47 colleagues and prevented €2.3M in fines"*
     """)
@@ -163,7 +163,7 @@ with col_metric4:
 st.markdown("---")
 st.subheader("💼 Recent Impact Stories")
 
-with st.expander("🚀 **EU Taxonomy Crisis Response** - *By Cara Antione*"):
+with st.expander("🚀 **EU Taxonomy Crisis Response** - *By Cara Antoine*"):
     st.markdown("""
     **Situation:** When EU taxonomy changes were announced, the ministry had a complete response strategy within 4 hours.
     
